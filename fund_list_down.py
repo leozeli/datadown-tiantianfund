@@ -50,8 +50,8 @@ def fund_list_down(engine):
 
 @click.command()
 @click.option('--account', default='root', help='Account of mysql')
-@click.option('--password', default='123456', help='Password of mysql')
-@click.option('--host', default='localhost', help='Host of mysql')
+@click.option('--password', default='987617162', help='Password of mysql')
+@click.option('--host', default='192.168.2.222', help='Host of mysql')
 @click.option('--post', default='3306', help='Post of mysql')
 @click.option('--database', default='fund', help='database of mysql')
 
